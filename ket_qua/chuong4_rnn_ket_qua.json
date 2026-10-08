@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "dataset": "SYNTHETIC hourly temperature, NOT real sensor data",
+  "hours": 1080,
+  "lookback": 24,
+  "targets": {
+    "train": 732,
+    "validation": 162,
+    "test": 162
+  },
+  "models": {
+    "SimpleRNN": {
+      "test_mae_C": 0.2779767899054293,
+      "test_rmse_C": 0.3532051792186171,
+      "best_epoch": 16,
+      "params": 321
+    },
+    "GRU": {
+      "test_mae_C": 0.2600925397481436,
+      "test_rmse_C": 0.3227236255026729,
+      "best_epoch": 24,
+      "params": 929
+    },
+    "Persistence baseline": {
+      "test_mae_C": 0.5208549314278044,
+      "test_rmse_C": 0.6125776166552346,
+      "best_epoch": null,
+      "params": 0
+    }
+  }
+}

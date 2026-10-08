@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "dataset": "sklearn Digits (1,797 ảnh 8x8)",
+  "split": {
+    "train": 1257,
+    "validation": 270,
+    "test": 270
+  },
+  "models": {
+    "Logistic regression": {
+      "validation_accuracy": 0.9777777777777777,
+      "test_accuracy": 0.9851851851851852,
+      "test_macro_f1": 0.9851577419601252
+    },
+    "Random forest": {
+      "validation_accuracy": 0.9629629629629629,
+      "test_accuracy": 0.9666666666666667,
+      "test_macro_f1": 0.9662609119567799
+    },
+    "RBF SVM": {
+      "validation_accuracy": 0.9740740740740741,
+      "test_accuracy": 0.9888888888888889,
+      "test_macro_f1": 0.988846749866919
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "dataset": "sklearn Digits 8x8",
+  "model": "2 Conv2D + 2 MaxPool2D + 2 Dense",
+  "params": 7882,
+  "selected_epoch": 26,
+  "best_validation_accuracy": 0.9666666666666667,
+  "test_accuracy": 0.9666666666666667,
+  "test_macro_f1": 0.9649072595880899
+}
